@@ -4,18 +4,19 @@ function FirstView() {
 	var self = Ti.UI.createView();
 	
 	//label using localization-ready strings from <app dir>/i18n/en/strings.xml
-	var label = Ti.UI.createLabel({
+	var lblStock = Ti.UI.createLabel({
 		color:'#000000',
-		text:String.format(L('welcome'),'Titanium'),
+		text:L('stock_wallet'),
 		height:'auto',
 		width:'auto'
 	});
-	self.add(label);
+	
+	self.add(lblStock); 
 	
 	//Add behavior for UI
-	label.addEventListener('click', function(e) {
+	/*lblStock.addEventListener('click', function(e) {
 		alert(e.source.text);
-	});
+	});*/
 	
 	return self;
 }

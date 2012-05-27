@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name='stock_wallet'>Stock Wallet</string>
+	<string name='stock'>Stock</string>	
+	<string name='quote'>Quote</string>
+</resources>
