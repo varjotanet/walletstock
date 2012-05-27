@@ -4,31 +4,11 @@ Logfile initialized
 [INFO] Building Wallet Stock for Android ... one moment
 [INFO] Titanium SDK version: 2.0.1 (04/12/12 16:33 999c68a)
 [DEBUG] Waiting for device to be ready ...
-[TRACE] adb devices returned 1 devices/emulators
-[DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.064125 seconds on emulator to get ready
-[DEBUG] tk.walletstock.app installed? True
-[WARN] Fastdev enabled, but server isn't running, deploying normally
-[INFO] Copying CommonJS modules...
-[INFO] Copying project resources..
-[TRACE] COPYING MODIFIED FILE: /Users/kleyson/Documents/Titanium Studio Workspace/walletstock/Resources/ui/common/FirstView.js => /Users/kleyson/Documents/Titanium Studio Workspace/walletstock/build/android/bin/assets/Resources/ui/common/FirstView.js
-[TRACE] Generating Java Classes
-[DEBUG] Processing Android resource drawables
-[ERROR] Exception occured while building Android project:
-[ERROR] Traceback (most recent call last):
-[ERROR]   File "/Users/kleyson/Library/Application Support/Titanium/mobilesdk/osx/2.0.1.GA2/android/builder.py", line 2119, in <module>
-[ERROR]     s.build_and_run(False, avd_id, debugger_host=debugger_host)
-[ERROR]   File "/Users/kleyson/Library/Application Support/Titanium/mobilesdk/osx/2.0.1.GA2/android/builder.py", line 1907, in build_and_run
-[ERROR]     self.manifest_changed = self.generate_android_manifest(compiler)
-[ERROR]   File "/Users/kleyson/Library/Application Support/Titanium/mobilesdk/osx/2.0.1.GA2/android/builder.py", line 737, in generate_android_manifest
-[ERROR]     self.generate_localizations()
-[ERROR]   File "/Users/kleyson/Library/Application Support/Titanium/mobilesdk/osx/2.0.1.GA2/android/builder.py", line 1248, in generate_localizations
-[ERROR]     doc = parseString(contents.encode("utf-8"))
-[ERROR]   File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/xml/dom/minidom.py", line 1924, in parseString
-[ERROR]     return expatbuilder.parseString(string)
-[ERROR]   File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/xml/dom/expatbuilder.py", line 940, in parseString
-[ERROR]     return builder.parseString(string)
-[ERROR]   File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/xml/dom/expatbuilder.py", line 223, in parseString
-[ERROR]     parser.Parse(string, True)
-[ERROR] ExpatError: not well-formed (invalid token): line 3, column 1
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[ERROR] Timed out waiting for emulator to be ready, you may need to close the emulator and try again
 [INFO] Android Emulator has exited
