@@ -40,7 +40,7 @@ function FirstView() {
 		
 		Titanium.Yahoo.yql(query, function(e){
 			var data = e.data;
-			alert(data.quotes.Name);
+			alert(data.quote.Name + data.quote.Ask);
 		});
 	};
 	
